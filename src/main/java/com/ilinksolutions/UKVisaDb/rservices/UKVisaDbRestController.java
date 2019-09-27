@@ -37,7 +37,7 @@ public class UKVisaDbRestController
 	@ApiOperation(value="Returns UK Visa Service is Running...")
 	@GetMapping("/serviceCheck")
 	public String serviceCheck() {
-		return "UK Visa Service is Running...";
+		return "UK Visa Service is Running1 ...";
 	}
 	
 	@ApiOperation(value="Returns JSON Object with person information.")
